@@ -7,6 +7,37 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+}
+h2,
+h3,
+a {
+	color: #093a58;
+}
+h1,
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
 
 /* ================================= 
   Base Layout Styles
