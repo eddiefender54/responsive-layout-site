@@ -19,7 +19,7 @@ ul {
 }
 p {
 	font-size: .95em;
-	max-width: 60%;
+	max-width: 90%;
 	margin: auto;
 }
 h2,
@@ -53,7 +53,7 @@ h2 {
 h3 {
     font: 500 1.5em/1 'Montserrat', sans-serif;
     text-align: center;
-    padding: 0rem 0;
+    padding: 1rem 0;
 }
 
 hr {
@@ -65,7 +65,7 @@ hr {
 
 span {
     max-width: 90%;
-    /* margin: auto; */
+    padding-top: 1rem;
 }
 
 
@@ -116,6 +116,11 @@ span {
 	justify-content: center;
 }
 
+.banner img {
+    max-height: 150px;
+    width: auto;
+}
+
 .main-footer h2 {
     padding-bottom: 2rem;
 }
@@ -124,7 +129,12 @@ span {
     background-color: #fff;
     text-align: center;
     margin: auto;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
+}
+
+.row p{
+    padding-bottom: 2rem;
+    /* max-width: 90%; */
 }
 
 .address p {
@@ -167,16 +177,16 @@ span {
 @media screen and (min-width: 768px){
     .main-header,
     .main-nav,
-    .columns,
-    .secondary-footer,
-    .second-nav {
+    .columns {
 		display: flex;
 		flex-direction: row;
 		align-self: center;
 		font-size: 16px;
+		margin: auto;
 	}
 
-    .main-header {
+    .main-header,
+    .secondary-footer {
         justify-content: space-between;
     }
 
@@ -185,7 +195,9 @@ span {
     }
 
     .banner {
+        margin: auto;
         flex-wrap: nowrap;
+        max-width: 90%;
     }
 
     .logo {
@@ -195,7 +207,7 @@ span {
     span {
         margin-bottom: auto;
         text-align: left;
-        padding-left: 5%;
+        padding-left: 0;
     }
 
     .columns {
@@ -203,7 +215,7 @@ span {
     }
 
     .col {
-        flex: 1 33%;
+        flex: 1 50%;
     }
 
     .col p{
@@ -221,11 +233,22 @@ span {
     .main-nav {
         margin-top: 5px;
     }
+
+    .secondary-footer,
+    .second-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .secondary-footer {
+        max-width: 90%;
+        margin: auto;
+    }
     
     .name-bottom,
     .second-nav {
         align-self: center;
-    }
+   }
 
     .name-bottom a,
     .second-nav a {
@@ -233,20 +256,25 @@ span {
         display: block;
     }
 
+    .footer-inner p{
+        max-width: 70%;
+    }
+
     .second-nav a {
         font-size: .95em;
+        padding: 5px 10px;
         color: #1e2753;
         text-transform: uppercase;
-        margin: 0 10px;
+        margin: 5px 0;
         font-weight: 700;
     }
     .second-nav a:hover {
         color: #397499;
     }
 
-    .second-nav {
-        margin-left: auto;
-    }
+    
+
+      
 }
 
 
