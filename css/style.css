@@ -174,7 +174,6 @@ span {
 		flex-direction: row;
 		align-self: center;
 		font-size: 16px;
-		/* max-width: 90%; */
 	}
 
     .main-header {
@@ -248,11 +247,6 @@ span {
     .second-nav {
         margin-left: auto;
     }
-
-    
-
-    
-
 }
 
 
