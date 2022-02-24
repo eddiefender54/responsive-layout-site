@@ -125,10 +125,10 @@ span {
 	justify-content: center;
 }
 
+
 .banner img {
-    max-height: 212px;
+    max-height: 150px;
     width: auto;
-    padding-left: 15px;
 }
 
 .main-footer h2 {
@@ -226,6 +226,12 @@ span {
         max-width: 90%;
     }
 
+    .banner img {
+        max-height: 212px;
+        padding-left: 15px;
+    }
+
+
     .logo {
         order: 1;
     }
@@ -302,9 +308,6 @@ span {
         max-width: 90%;
     }
 
-    
-
-      
 }
 
 
