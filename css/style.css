@@ -128,7 +128,7 @@ span {
 }
 
 .banner img {
-    max-height: 150px;
+    max-height: 212px;
     width: auto;
     padding-left: 15px;
 }
@@ -193,8 +193,12 @@ span {
 ==================================== */
 
 @media screen and (min-width: 768px){
-    .main-header,
-    .main-nav,
+    
+    .main-nav {
+        display: flex;
+        justify-content: center;
+    }
+    
     .columns {
 		display: flex;
 		flex-direction: row;
@@ -202,7 +206,7 @@ span {
        	font-size: 16px;
 	}
 
-    .main-header,
+    
     .secondary-footer {
         justify-content: space-between;
     }
@@ -307,6 +311,19 @@ span {
 
 
 @media screen and (min-width: 1024px){
+    .main-header,
+    .main-nav,
+    .columns {
+		display: flex;
+		flex-direction: row;
+		align-self: center;
+       	font-size: 16px;
+	}
+
+    .main-header,
+    .secondary-footer {
+        justify-content: space-between;
+    }
 
     .col {
         flex: 1 33%;
